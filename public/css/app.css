@@ -34,7 +34,7 @@ header .blue-row .container {
   display: flex;
   align-items: center;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
   justify-content: flex-end;
 }
 
@@ -71,5 +71,32 @@ header nav input {
 section.jumbo-container {
   height: 400px;
   background-position: top;
+}
+
+footer {
+  color: white;
+}
+
+footer .container .list-container {
+  display: flex;
+}
+
+footer .container .list-container .list-content {
+  padding-right: 20px;
+}
+
+footer .container .list-container .list-content ul {
+  padding-bottom: 20px;
+}
+
+footer .container .list-container .list-content ul li {
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer .container .list-container .list-content ul li:first-child {
+  font-weight: 500;
+  margin: 20px 0;
+  color: white;
 }
 
