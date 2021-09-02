@@ -68,3 +68,8 @@ header nav input {
   text-align: right;
 }
 
+section.jumbo-container {
+  height: 400px;
+  background-position: top;
+}
+

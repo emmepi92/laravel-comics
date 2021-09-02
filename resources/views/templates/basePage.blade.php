@@ -15,6 +15,11 @@
         @include('templates.header')
     </header>
 
+    <!-- bg-img non funziona nel scss -->
+    <section class="jumbo-container" style=" background-image: url('img/jumbotron.jpg');">
+        
+    </section>
+
 
     <div>
         @yield('content')
