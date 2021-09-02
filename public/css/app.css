@@ -77,6 +77,13 @@ footer {
   color: white;
 }
 
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
 footer .container .list-container {
   display: flex;
 }
@@ -98,5 +105,11 @@ footer .container .list-container .list-content ul li:first-child {
   font-weight: 500;
   margin: 20px 0;
   color: white;
+}
+
+footer .container img {
+  position: absolute;
+  right: 0;
+  top: -20%;
 }
 

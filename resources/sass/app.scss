@@ -69,6 +69,11 @@ section.jumbo-container{
 footer {
     color: white;
     .container {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        overflow: hidden;
+
         .list-container {
             display: flex;
             .list-content {
@@ -86,6 +91,12 @@ footer {
                     }
                 }
             }
+        }
+
+        img {
+            position: absolute;
+            right: 0;
+            top: -20%;
         }
 
     }

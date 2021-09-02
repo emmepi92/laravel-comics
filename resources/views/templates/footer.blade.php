@@ -45,7 +45,8 @@
                 <li><a href="#">DC Shop</a></li>
                 <li><a href="#">MAD Magazine</a></li>
             </ul>
-        </div>
-        
+        </div>        
     </div>
+
+    <img src="./img/dc-logo-bg.png" alt="">
 </div>
