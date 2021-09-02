@@ -15,10 +15,7 @@
         @include('templates.header')
     </header>
 
-    <!-- bg-img non funziona nel scss -->
-    <section class="jumbo-container" 
-    style=" background-image: url('img/jumbotron.jpg');"
-    >
+    <section class="jumbo-container">
         
     </section>
 
@@ -27,8 +24,7 @@
         @yield('content')
     </div>
 
-    <footer
-    style="background-image: url('img/footer-bg.jpg');">
+    <footer>
         @include('templates.footer')
     </footer>
     

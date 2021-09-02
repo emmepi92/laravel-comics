@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Oswald:wght@300;
 
 400;500&display=swap);@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap);.container {
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -9,7 +9,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -70,11 +70,13 @@ header nav input {
 
 section.jumbo-container {
   height: 400px;
+  background-image: url("/img/jumbotron.jpg");
   background-position: top;
 }
 
 footer {
   color: white;
+  background-image: url("/img/footer-bg.jpg");
 }
 
 footer .container {
