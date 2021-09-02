@@ -3,5 +3,8 @@
 @section('title','Comics')
 
 @section('content')
-    MAIN DELLA PAGINA COMICS
+    <div class="container">
+        COMICS
+
+    </div>   
 @endsection

@@ -78,6 +78,7 @@ section.jumbo-container {
 footer {
   color: white;
   background-image: url("/img/footer-bg.jpg");
+  background-size: cover;
 }
 
 footer .container {

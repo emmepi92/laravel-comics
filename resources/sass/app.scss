@@ -69,6 +69,7 @@ section.jumbo-container{
 footer {
     color: white;
     background-image: url('/img/footer-bg.jpg');
+    background-size: cover;
     .container {
         display: flex;
         justify-content: space-between;
