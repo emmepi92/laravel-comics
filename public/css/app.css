@@ -117,3 +117,31 @@ footer .container img {
   width: 500px;
 }
 
+.bg-blue {
+  background-color: #0282f9;
+  color: white;
+  padding: 30px 0;
+}
+
+.bg-blue .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bg-blue .container .content {
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.bg-blue .container .content img {
+  max-height: 40px;
+  max-width: 40px;
+  margin-right: 10px;
+}
+
+.bg-blue .container .content .content-text {
+  white-space: nowrap;
+}
+

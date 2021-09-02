@@ -9,13 +9,16 @@
 
 <nav class="container">
     <div class="nav-logo">
-        <img src="img/dc-logo.png" alt="LogoDC">
+        <a href=" {{ route('homepage') }}">
+            <img src="img/dc-logo.png" alt="LogoDC">
+        </a>
+        
     </div>
 
     <div class="nav-menu">
         <ul>
             <li><a href="#">Characters</a></li>
-            <li><a href="#">Comics</a></li>
+            <li><a href="{{ route('comics') }}">Comics</a></li>
             <li><a href="#">Movies</a></li>
             <li><a href="#">Tv</a></li>
             <li><a href="#">Games</a></li>

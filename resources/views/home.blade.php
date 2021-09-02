@@ -3,5 +3,12 @@
 @section('title','Homepage')
 
 @section('content')
-    MAIN DELLA PAGINA
+
+    <div class="container">
+        
+        MAIN DELLA PAGINA HOME
+
+    </div>
+
+    @include ('templates.blueRow')
 @endsection
