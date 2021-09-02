@@ -5,9 +5,7 @@
 @section('content')
 
     <div class="container">
-        
-        MAIN DELLA PAGINA HOME
-
+         MAIN DELLA PAGINA HOME         
     </div>
 
     @include ('templates.blueRow')
