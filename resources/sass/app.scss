@@ -1,1 +1,57 @@
-//
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+@import "classUtilities";
+@import "reset";
+
+header {
+    .blue-row {
+        background-color: rgb(2, 130, 249);
+
+        .container {            
+            height: 30px;
+            display: flex;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            justify-content: flex-end;
+    
+            div {
+                padding: 0 12px;
+            }
+        }
+
+    }
+
+    nav {
+        background-color: white; 
+        display: flex; 
+        align-items: center;
+
+        .nav-logo {
+            img {
+                width: 60px;
+                margin: 20px;
+            }
+        }
+
+        .nav-menu {
+            ul {
+                display: flex;
+                text-transform: uppercase;
+                font-weight: bolder;
+                
+                li {
+                    margin-left: 18px;
+                }
+            }
+        }
+
+        input {
+            margin-left: 18px;
+            text-align: right;
+
+        }
+
+
+
+    }
+}
