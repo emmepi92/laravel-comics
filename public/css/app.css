@@ -62,9 +62,11 @@ header nav input {
 
 .main-comics {
   background-color: black;
+}
+.main-comics .relative {
   position: relative;
 }
-.main-comics .current-serie-label {
+.main-comics .relative .current-serie-label {
   font-size: 40px;
   color: white;
   padding: 10px 20px;
@@ -72,7 +74,6 @@ header nav input {
   display: inline-block;
   position: absolute;
   top: -50px;
-  left: 250px;
 }
 .main-comics .container {
   display: flex;

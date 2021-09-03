@@ -1,17 +1,22 @@
 .main-comics {
     background-color: black;
-    position: relative;
-    
-    .current-serie-label {
-        font-size: 40px;
-        color: white;
-        padding: 10px 20px;
-        background-color: royalblue;
-        display: inline-block;
-        position: absolute;
-        top: -50px;
-        left: 250px;
+
+    .relative {
+        position: relative;
+
+        .current-serie-label {
+            font-size: 40px;
+            color: white;
+            padding: 10px 20px;
+            background-color: royalblue;
+            display: inline-block;
+            position: absolute;
+            top: -50px;
+            
+        }
     }
+    
+    
 
     .container{
         display: flex;

@@ -5,7 +5,10 @@
 @section('content')
 
     <div class="main-comics">
-        <div class="current-serie-label"> CURRENT SERIES </div>
+        <div class="container relative">
+            <div class="current-serie-label"> CURRENT SERIES </div>
+
+        </div>
         <div class="container">
             @foreach ($comicsList as $comic)
                 <div class="single-comic">
