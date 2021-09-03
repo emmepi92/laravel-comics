@@ -62,11 +62,22 @@ header nav input {
 
 .main-comics {
   background-color: black;
+  position: relative;
+}
+.main-comics .current-serie-label {
+  font-size: 40px;
+  color: white;
+  padding: 10px 20px;
+  background-color: royalblue;
+  display: inline-block;
+  position: absolute;
+  top: -50px;
+  left: 250px;
 }
 .main-comics .container {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 .main-comics .container .single-comic {
   width: calc(100% / 6);
