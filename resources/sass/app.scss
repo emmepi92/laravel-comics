@@ -2,61 +2,11 @@
 
 @import "classUtilities";
 @import "reset";
-
-header {
-    .blue-row {
-        background-color: rgb(2, 130, 249);
-
-        .container {            
-            height: 30px;
-            display: flex;
-            align-items: center;
-            color: white;
-            font-weight: 500;
-            justify-content: flex-end;
-    
-            div {
-                padding: 0 12px;
-            }
-        }
-
-    }
-
-    nav {
-        background-color: white; 
-        display: flex; 
-        align-items: center;
-        justify-content: space-between;
-
-        .nav-logo {
-            img {
-                width: 60px;
-                margin: 20px;
-            }
-        }
-
-        .nav-menu {
-            ul {
-                display: flex;
-                text-transform: uppercase;
-                font-weight: bolder;
-                
-                li {
-                    margin-left: 30px;
-                }
-            }
-        }
-
-        input {
-            margin-left: 18px;
-            text-align: right;
-
-        }
+@import "header";
+@import "home";
+@import "footer";
 
 
-
-    }
-}
 
 section.jumbo-container{
     height: 400px;
@@ -64,50 +14,13 @@ section.jumbo-container{
     background-position: top;
 }
 
-footer {
-    color: white;
-    background-image: url('/img/footer-bg.jpg');
-    background-size: cover;
-    .container {
-        display: flex;
-        justify-content: space-between;
-        position: relative;
-        overflow: hidden;
 
-        .list-container {
-            display: flex;
-            .list-content {
-                padding-right: 20px;
-                ul {
-                    padding-bottom: 20px;
-                    li {
-                        font-weight: 200;
-                        color: rgba(255, 255, 255,0.5);
-                        &:first-child {
-                            font-weight: 500;
-                            margin: 20px 0;
-                            color: white;
-                        }
-                    }
-                }
-            }
-        }
-
-        img {
-            position: absolute;
-            right: 0;
-            top: -20%;
-            width: 500px;
-        }
-
-    }
-}
 
 
 .bg-blue {
     background-color: rgb(2, 130, 249);
     color: white;
-    padding: 30px 0;
+    padding: 50px 0;
 
     .container{
 

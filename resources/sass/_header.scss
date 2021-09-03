@@ -1,0 +1,54 @@
+header {
+    .blue-row {
+        background-color: rgb(2, 130, 249);
+
+        .container {            
+            height: 30px;
+            display: flex;
+            align-items: center;
+            color: white;
+            font-weight: 500;
+            justify-content: flex-end;
+    
+            div {
+                padding: 0 12px;
+            }
+        }
+
+    }
+
+    nav {
+        background-color: white; 
+        display: flex; 
+        align-items: center;
+        justify-content: space-between;
+
+        .nav-logo {
+            img {
+                width: 60px;
+                margin: 20px;
+            }
+        }
+
+        .nav-menu {
+            ul {
+                display: flex;
+                text-transform: uppercase;
+                font-weight: bolder;
+                
+                li {
+                    margin-left: 30px;
+                }
+            }
+        }
+
+        input {
+            margin-left: 18px;
+            text-align: right;
+
+        }
+
+
+
+    }
+}
