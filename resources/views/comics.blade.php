@@ -45,15 +45,42 @@
 
 
         <div class="comic-info">
-            <div class="comic-info-talent">
+            <div class="comic-info-cont">
 
-                <h4>Talent</h4>
-                <div>
+                <h2>Talent</h2>
+                <div class="comic-info-cont-inner">
+                    <h4>Art by:</h4>
+                    <p>
+                        @foreach($comic['artists'] as $artist)
+                            {{ $artist }},
 
+                        @endforeach
+                    </p>
+                </div>
+                <div class="comic-info-cont-inner">
+                    <h4>Written by:</h4>
+                    <p>
+                        @foreach($comic['writers'] as $writer)
+                            {{ $writer }},
+
+                        @endforeach
+                    </p>
                 </div>
             </div>
-            <div class="comic-info-specs">
-                <h4>Specs</h4>
+            <div class="comic-info-cont">
+                <h2>Specs</h2>
+                <div class="comic-info-cont-inner">
+                    <h4>Series:</h4>
+                    <div> {{ $comic['series'] }}</div> 
+                </div>
+                <div class="comic-info-cont-inner">
+                    <h4>U.S. Price:</h4>
+                    <div>{{ $comic['price'] }}</div> 
+                </div>
+                <div class="comic-info-cont-inner">
+                    <h4>On Sale Date:</h4>
+                    <div>{{ $comic['sale_date'] }}</div> 
+                </div>           
             </div>
         </div>
 

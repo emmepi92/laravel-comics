@@ -42,3 +42,24 @@
         
     }  
 }
+
+.comic-info {
+    display: flex;
+
+    &-cont {
+        width: 50%;
+
+        &-inner {
+            display: flex;
+            padding: 10px 0;
+            h4 {
+                width: 30%;
+            }
+
+            p {
+                width: 65%;
+            }
+        }
+    }
+
+}

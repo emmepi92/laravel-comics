@@ -127,6 +127,23 @@ header nav input {
 .comic-container-text .green-table .info {
   padding: 5px 10px;
 }
+.comic-info {
+  display: flex;
+}
+.comic-info-cont {
+  width: 50%;
+}
+.comic-info-cont-inner {
+  display: flex;
+  padding: 10px 0;
+}
+.comic-info-cont-inner h4 {
+  width: 30%;
+}
+.comic-info-cont-inner p {
+  width: 65%;
+}
+
 footer {
   color: rgba(255, 255, 255, 0.5);
   background-image: url("/img/footer-bg.jpg");
