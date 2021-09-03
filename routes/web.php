@@ -17,11 +17,12 @@ Route::get('/', function () {
 
 })->name('homepage');          
 
-Route::get('/comics', function() {
+Route::get('/comics/{id}', function($id) {
 
     $comicsArray = config('comics');
 
     return view('comics',[
+        'id' => $id,
         'comicsList' => $comicsArray
     ]);
 })->name('comics');

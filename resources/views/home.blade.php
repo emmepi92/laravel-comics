@@ -10,10 +10,16 @@
 
         </div>
         <div class="container">
+
             @foreach ($comicsList as $comic)
+
                 <div class="single-comic">
-                    <img src="{{ $comic['thumb'] }}" alt="">
-                    <h4>{{ $comic['series']}}</h4>
+
+                    <a href="{{ route('comics', [ 'id' => $loop->iteration]) }}">
+                    
+                        <img src="{{ $comic['thumb'] }}" alt="">
+                        <h4>{{ $comic['series']}}</h4>
+                    </a>
                 </div>
     
             @endforeach

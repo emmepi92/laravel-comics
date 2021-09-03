@@ -93,6 +93,40 @@ header nav input {
   max-width: 100%;
 }
 
+.blue {
+  background-color: #0282f9;
+  height: 80px;
+  position: relative;
+}
+.blue img {
+  position: absolute;
+  bottom: 40px;
+}
+
+.comic-container {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+.comic-container-text {
+  width: 60%;
+}
+.comic-container-text .green-table {
+  background-color: #61b461;
+  color: white;
+  display: flex;
+  border-bottom: 1px solid #666;
+  margin: 30px 0;
+}
+.comic-container-text .green-table-plus {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  border-right: 1px solid #666;
+}
+.comic-container-text .green-table .info {
+  padding: 5px 10px;
+}
 footer {
   color: rgba(255, 255, 255, 0.5);
   background-image: url("/img/footer-bg.jpg");
