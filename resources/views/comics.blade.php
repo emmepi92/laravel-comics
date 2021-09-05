@@ -42,47 +42,90 @@
             </div>
 
         </div>
+    </div>
 
-
-        <div class="comic-info">
-            <div class="comic-info-cont">
-
-                <h2>Talent</h2>
-                <div class="comic-info-cont-inner">
-                    <h4>Art by:</h4>
-                    <p>
-                        @foreach($comic['artists'] as $artist)
-                            {{ $artist }},
-
-                        @endforeach
-                    </p>
+    <div class="bg-gray-comic">
+        <div class="container">
+            <div class="comic-info">
+                <div class="comic-info-cont">
+    
+                    <h2>Talent</h2>
+                    <div class="comic-info-cont-inner">
+                        <h4>Art by:</h4>
+                        <p>
+                            @foreach($comic['artists'] as $artist)
+                                <span>{{ $artist }}</span> 
+                                @if(!$loop->last)
+                                ,                                
+                                @endif
+    
+                            @endforeach
+                        </p>
+                    </div>
+                    <div class="comic-info-cont-inner">
+                        <h4>Written by:</h4>
+                        <p>
+                            @foreach($comic['writers'] as $writer)
+                                <span>{{ $writer }}</span>
+                                @if(!$loop->last)
+                                ,                                
+                                @endif
+    
+                            @endforeach
+                        </p>
+                    </div>
                 </div>
-                <div class="comic-info-cont-inner">
-                    <h4>Written by:</h4>
-                    <p>
-                        @foreach($comic['writers'] as $writer)
-                            {{ $writer }},
-
-                        @endforeach
-                    </p>
+                <div class="comic-info-cont">
+                    <h2>Specs</h2>
+                    <div class="comic-info-cont-inner">
+                        <h4>Series:</h4>
+                        <div class="blue-text"> {{ $comic['series'] }}</div> 
+                    </div>
+                    <div class="comic-info-cont-inner">
+                        <h4>U.S. Price:</h4>
+                        <div>{{ $comic['price'] }}</div> 
+                    </div>
+                    <div class="comic-info-cont-inner">
+                        <h4>On Sale Date:</h4>
+                        <div>{{ $comic['sale_date'] }}</div> 
+                    </div>           
                 </div>
             </div>
-            <div class="comic-info-cont">
-                <h2>Specs</h2>
-                <div class="comic-info-cont-inner">
-                    <h4>Series:</h4>
-                    <div> {{ $comic['series'] }}</div> 
-                </div>
-                <div class="comic-info-cont-inner">
-                    <h4>U.S. Price:</h4>
-                    <div>{{ $comic['price'] }}</div> 
-                </div>
-                <div class="comic-info-cont-inner">
-                    <h4>On Sale Date:</h4>
-                    <div>{{ $comic['sale_date'] }}</div> 
-                </div>           
-            </div>
+
         </div>
+
+        <div class="bg-gray-comic">
+            <div class="container card-container">
+                <div class="card">
+
+                    <div class="card-name">
+                        digital comics
+                    </div>
+                </div>
+                <div class="card">
+
+                    <div class="card-name">
+                        shop dc
+                    </div>
+                </div>
+                <div class="card">
+
+                    <div class="card-name">
+                        comic shop locator
+                    </div>
+                </div>
+                <div class="card">
+
+                    <div class="card-name">
+                        subscriptions
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
 
     </div>   
 @endsection

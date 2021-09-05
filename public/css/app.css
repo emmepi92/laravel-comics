@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Oswald&display=swap);.container {
+@import url(https://fonts.googleapis.com/css2?family=Oswald&display=swap);@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);.container {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -26,6 +26,7 @@ a:hover {
 header .blue-row {
   background-color: #0282f9;
 }
+
 header .blue-row .container {
   height: 30px;
   display: flex;
@@ -34,27 +35,33 @@ header .blue-row .container {
   font-weight: 500;
   justify-content: flex-end;
 }
+
 header .blue-row .container div {
   padding: 0 12px;
 }
+
 header nav {
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 header nav .nav-logo img {
   width: 60px;
   margin: 20px;
 }
+
 header nav .nav-menu ul {
   display: flex;
   text-transform: uppercase;
   font-weight: bolder;
 }
+
 header nav .nav-menu ul li {
   margin-left: 30px;
 }
+
 header nav input {
   margin-left: 18px;
   text-align: right;
@@ -63,9 +70,11 @@ header nav input {
 .main-comics {
   background-color: black;
 }
+
 .main-comics .relative {
   position: relative;
 }
+
 .main-comics .relative .current-serie-label {
   font-size: 40px;
   color: white;
@@ -75,20 +84,24 @@ header nav input {
   position: absolute;
   top: -50px;
 }
+
 .main-comics .container {
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
 }
+
 .main-comics .container .single-comic {
   width: calc(100% / 6);
   color: white;
   text-transform: uppercase;
   padding: 10px;
 }
+
 .main-comics .container .single-comic h4 {
   font-weight: 300;
 }
+
 .main-comics .container .single-comic img {
   max-width: 100%;
 }
@@ -98,19 +111,27 @@ header nav input {
   height: 80px;
   position: relative;
 }
+
 .blue img {
   position: absolute;
   bottom: 40px;
 }
 
 .comic-container {
+  font-family: "Roboto", sans-serif;
   display: flex;
   padding: 20px 0;
   justify-content: space-between;
 }
+
 .comic-container-text {
   width: 60%;
 }
+
+.comic-container-text h1 {
+  text-transform: uppercase;
+}
+
 .comic-container-text .green-table {
   background-color: #61b461;
   color: white;
@@ -118,30 +139,78 @@ header nav input {
   border-bottom: 1px solid #666;
   margin: 30px 0;
 }
+
 .comic-container-text .green-table-plus {
   flex-grow: 1;
   display: flex;
   justify-content: space-between;
   border-right: 1px solid #666;
 }
+
 .comic-container-text .green-table .info {
   padding: 5px 10px;
 }
-.comic-info {
+
+.bg-gray-comic {
+  background-color: #eee;
+  border-top: 2px solid #ccc;
+}
+
+.bg-gray-comic .comic-info {
   display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
 }
-.comic-info-cont {
-  width: 50%;
+
+.bg-gray-comic .comic-info-cont {
+  width: 45%;
 }
-.comic-info-cont-inner {
+
+.bg-gray-comic .comic-info-cont h2 {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+.bg-gray-comic .comic-info-cont-inner {
   display: flex;
   padding: 10px 0;
+  border-bottom: 1px solid #ccc;
 }
-.comic-info-cont-inner h4 {
+
+.bg-gray-comic .comic-info-cont-inner h4 {
   width: 30%;
 }
-.comic-info-cont-inner p {
-  width: 65%;
+
+.bg-gray-comic .comic-info-cont-inner p {
+  width: 70%;
+}
+
+.bg-gray-comic .comic-info-cont-inner p span {
+  color: #0282f9;
+}
+
+.bg-gray-comic .comic-info-cont-inner .blue-text {
+  color: #0282f9;
+  text-transform: uppercase;
+}
+
+.bg-gray-comic .card-container {
+  display: flex;
+}
+
+.bg-gray-comic .card-container .card {
+  width: calc(100% / 4);
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+
+.bg-gray-comic .card-container .card:first-child {
+  border-left: 1px solid #ccc;
+}
+
+.bg-gray-comic .card-container .card-name {
+  text-transform: uppercase;
+  color: #777;
 }
 
 footer {
@@ -149,62 +218,77 @@ footer {
   background-image: url("/img/footer-bg.jpg");
   background-size: cover;
 }
+
 footer .container {
   display: flex;
   justify-content: space-between;
   position: relative;
   overflow: hidden;
 }
+
 footer .container .list-container .list {
   display: flex;
 }
+
 footer .container .list-container .list .list-content {
   padding-right: 20px;
 }
+
 footer .container .list-container .list .list-content ul {
   padding-bottom: 20px;
 }
+
 footer .container .list-container .list .list-content ul li {
   font-weight: 200;
 }
+
 footer .container .list-container .list .list-content ul li:first-child {
   font-weight: 500;
   margin: 20px 0;
   color: white;
 }
+
 footer .container img.logo-dc {
   position: absolute;
   right: 0;
   top: -15%;
   width: 600px;
 }
+
 footer .container p {
   padding: 20px 0;
 }
+
 footer .container p a {
   color: #0282f9;
 }
+
 footer .bg-gray {
   background-color: #303030;
   padding: 30px 0;
   color: white;
 }
+
 footer .bg-gray .container {
   display: flex;
   align-items: center;
   font-size: 25px;
 }
+
 footer .bg-gray .container .custom-button {
   border: 3px solid #0282f9;
   padding: 15px 20px;
 }
+
 footer .bg-gray .container .follow {
   color: #0282f9;
   display: flex;
 }
+
 footer .bg-gray .container .follow .follow-imgs {
   margin-left: 20px;
 }
+
 footer .bg-gray .container .follow .follow-imgs img {
   margin-right: 10px;
 }
@@ -220,21 +304,26 @@ section.jumbo-container {
   color: white;
   padding: 50px 0;
 }
+
 .bg-blue .container {
   display: flex;
   justify-content: space-around;
 }
+
 .bg-blue .container .content {
   text-transform: uppercase;
   color: white;
   display: flex;
   align-items: center;
 }
+
 .bg-blue .container .content img {
   max-height: 40px;
   max-width: 40px;
   margin-right: 10px;
 }
+
 .bg-blue .container .content .content-text {
   white-space: nowrap;
 }
+

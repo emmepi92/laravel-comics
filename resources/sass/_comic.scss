@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 .blue {
     background-color: #0282f9;
     height: 80px;
@@ -5,18 +8,23 @@
     img {
         position: absolute;
         bottom:40px;
-
+        
     }
 }
 
 .comic-container {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     padding: 20px 0;
     justify-content: space-between;
-
+    
     &-text {
         width: 60%;
 
+        h1 {
+            text-transform: uppercase;
+        }
+        
         .green-table {
             background-color: rgb(97, 180, 97);
             color: white;
@@ -38,28 +46,67 @@
         }
     }
 
-    &-img {
-        
-    }  
 }
+.bg-gray-comic {
+    background-color: #eee;
+    border-top: 2px solid #ccc;;
 
-.comic-info {
-    display: flex;
+    .comic-info {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+    
+        &-cont {
+            width: 45%;
 
-    &-cont {
-        width: 50%;
+            h2 {
+                border-bottom: 1px solid #ccc;
+                padding: 20px 0;
 
-        &-inner {
-            display: flex;
-            padding: 10px 0;
-            h4 {
-                width: 30%;
+            }
+    
+            &-inner {
+                display: flex;
+                padding: 10px 0;
+                border-bottom: 1px solid #ccc;
+                h4 {
+                    width: 30%;
+                }
+    
+                p {
+                    width: 70%;
+                    span {
+                        color: #0282f9;
+                        
+                    }
+                }
+
+                .blue-text {
+                    color: #0282f9;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    
+    }
+
+    .card-container {
+        display: flex;
+
+        .card{
+            width: calc(100% / 4);
+            border-right: 1px solid #ccc;
+            padding: 10px;
+
+            &:first-child {
+
+                border-left: 1px solid #ccc;
             }
 
-            p {
-                width: 65%;
+            &-name {
+                text-transform: uppercase;
+                color: #777;                
             }
         }
     }
-
 }
