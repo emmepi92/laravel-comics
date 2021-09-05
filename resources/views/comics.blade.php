@@ -101,24 +101,33 @@
                     <div class="card-name">
                         digital comics
                     </div>
+
+                    <div id="digital-comics-icon"></div>
+
                 </div>
                 <div class="card">
 
                     <div class="card-name">
                         shop dc
                     </div>
+                    <div id="shop-dc-icon"></div>
+
                 </div>
                 <div class="card">
 
                     <div class="card-name">
                         comic shop locator
                     </div>
+                    <div id="comic-shop-locator-icon"></div>
+
                 </div>
                 <div class="card">
 
                     <div class="card-name">
                         subscriptions
                     </div>
+                    <div id="subscriptions-icon"></div>
+
                 </div>
 
             </div>

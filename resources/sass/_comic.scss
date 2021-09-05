@@ -97,6 +97,8 @@
             width: calc(100% / 4);
             border-right: 1px solid #ccc;
             padding: 10px;
+            display: flex;
+            justify-content: space-between;
 
             &:first-child {
 
@@ -109,4 +111,31 @@
             }
         }
     }
+}
+
+#digital-comics-icon{
+    width: 37px;
+    height: 37px;
+    background-image: url("/img/cta-icons.png");
+}
+
+#shop-dc-icon{
+    width: 37px;
+    height: 37px;
+    background: url("/img/cta-icons.png") -111px 0;
+
+}
+
+#comic-shop-locator-icon{
+    width: 37px;
+    height: 37px;
+    background: url("/img/cta-icons.png") -74px 0;
+
+}
+
+#subscriptions-icon{
+    width: 37px;
+    height: 37px;
+    background: url("/img/cta-icons.png") -37px 0;
+
 }

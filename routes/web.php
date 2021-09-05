@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 })->name('homepage');          
 
-Route::get('/comics/{id}', function($id) {
+Route::get('/comic/{id}', function($id) {
 
     $comicsArray = config('comics');
 
