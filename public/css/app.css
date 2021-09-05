@@ -96,11 +96,29 @@ header nav input {
 .blue {
   background-color: #0282f9;
   height: 80px;
+}
+.blue .container {
   position: relative;
 }
-.blue img {
+.blue .container .img-container {
   position: absolute;
-  bottom: 40px;
+  bottom: -70px;
+}
+.blue .container .img-container .relative {
+  position: relative;
+  border: 1px solid white;
+  overflow: hidden;
+}
+.blue .container .img-container .relative .absolute {
+  background-color: #0282f9;
+  color: white;
+  position: absolute;
+  padding: 3px;
+}
+.blue .container .img-container .relative .bottom {
+  width: 100%;
+  text-align: center;
+  bottom: 1px;
 }
 
 .comic-container {

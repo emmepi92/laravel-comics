@@ -10,7 +10,14 @@
 
     <div class="blue">
         <div class="container">
-            <img src="{{$comic['thumb']}}" alt="">
+            <div class="img-container">
+                <div class="relative">
+                    <div class="absolute"> COMIC BOOK</div>
+                    <img src="{{$comic['thumb']}}" alt="">
+                    <div class="absolute bottom"> VIEW GALLERY</div>
+
+                </div>
+            </div>
 
         </div>
 
